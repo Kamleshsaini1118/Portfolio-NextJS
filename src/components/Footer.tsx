@@ -2,6 +2,7 @@ import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -51,7 +52,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src={profile.img}
                     alt="social-media-icon"
                     width={20}
@@ -59,7 +60,7 @@ const Footer = () => {
                   />
                 </a>
               ) : (
-                <img
+                <Image
                   src={profile.img}
                   alt="social-media-icon"
                   width={20}
