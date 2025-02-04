@@ -209,7 +209,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/",
     link: ""
   },
   {
